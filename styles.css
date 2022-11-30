@@ -1,0 +1,33 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://lumiere-a.akamaihd.net/v1/images/alderaan-main_f5b676cf.jpeg?region=0%2C40%2C1280%2C640");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  background-color: #333333;
+  opacity: 0.7;
+  width: 40%;
+  height: 60%;
+  color: white;
+  text-align: center;
+}
+#getRes {
+  padding: 10px 20px;
+  margin: 2rem;
+  background-color: cadetblue;
+  border: white 3px solid;
+  color: white;
+  font-size: 1.1rem;
+}
